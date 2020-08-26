@@ -1,119 +1,103 @@
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-	background-color:#f6b3;
-	font-family: Arial;
-	color: red;
-	min-height: 200px;
+  background-color: #f6b3;
+  font-family: Arial;
+  color: red;
+  min-height: 200px;
 }
 
 header {
-	font-size: 15px;
-
+  font-size: 15px;
 }
 
-header, form {
-	min-height: 100px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-
+header,
+form {
+  min-height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-form input, form button {
-	padding: 20px;
-	font-size: 15px;
-	border: none;
-	background: #fff;
+form input,
+form button {
+  padding: 20px;
+  font-size: 15px;
+  border: none;
+  background: #fff;
 }
 
 form button {
-	color: #f6b34f;
-	cursor: pointer;
-	opacity: .5;
-
+  color: #f6b34f;
+  cursor: pointer;
+  opacity: 0.5;
 }
 
-form button:hover{
-	opacity: 1;
+form button:hover {
+  opacity: 1;
 }
 
 .todo-container {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .todo-list {
-	min-width: 30%;
-	list-style: none;
+  min-width: 30%;
+  list-style: none;
 }
 
 .todo {
-	margin: 10px;
-	background-color: white;
-	color: black;
-	font-size: 15px;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	transition: all 0.5s ease;
-
+  margin: 10px;
+  background-color: white;
+  color: black;
+  font-size: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.5s ease;
 }
 
 .todo li {
-	flex: 1;
+  flex: 1;
 }
 
 .trash-btn {
-	background: #ff567898;
-	
-	color: white;
-	border: none;
-	height: 57px;
-	width: 30px;
-	cursor: pointer;
-	pointer-events: auto;
-	
+  background: #ff567898;
+
+  color: white;
+  border: none;
+  height: 57px;
+  width: 30px;
+  cursor: pointer;
+  pointer-events: auto;
 }
 
 .complite-btn {
-	background: lightblue;
-	color: white;
-	border: none;
-	height: 57px;
-	width: 30px;
-	cursor: pointer;
-	pointer-events: auto;
-			
-
+  background: lightblue;
+  color: white;
+  border: none;
+  height: 57px;
+  width: 30px;
+  cursor: pointer;
+  pointer-events: auto;
 }
 
 .todo-item {
-	padding: 5%;
-
+  padding: 5%;
 }
 
 .completed {
-	text-decoration: line-through;
-	opacity: .5;
-
+  text-decoration: line-through;
+  opacity: 0.5;
 }
 
 .fall {
-	transform: translatey(8rem) rotateZ(20deg);
-	opacity: 0;
+  transform: translatey(8rem) rotateZ(20deg);
+  opacity: 0;
 }
-
-
-
-
-
-
-
-
